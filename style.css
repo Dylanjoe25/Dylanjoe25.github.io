@@ -295,14 +295,14 @@ body {
 #product1 .pro .des span {
 
   color: #606063;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 #product1 .pro .des h5 {
 
   padding: 7px;
   color: #1a1a1a;
-  font-size: 14px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -314,7 +314,7 @@ body {
 
 #product1 .pro .des h4 {
   padding: 7px;
-  font-size: 15px;
+  font-size: 40px;
   font-weight: 700;
   color: #088178;
 
@@ -731,6 +731,10 @@ footer .copyright {
 }
 
 @media (maxi-width:320px) {
+    
+    .last{
+        display: none;
+    }
 
   #blog .blog-box {
     
